@@ -46,6 +46,7 @@ BEGIN
 		$crowdin_project_identifier
 		$crowdin_project_key
 		$robotoff_url
+		$redis_url
 		%server_options
 	);
 	%EXPORT_TAGS = (all => [@EXPORT_OK]);
@@ -92,6 +93,9 @@ my $postgres_url = "postgresql://${postgres_user}:${postgres_password}\@${postgr
 # Set this to your instance of https://github.com/openfoodfacts/robotoff/ to
 # enable an in-site robotoff-asker in the product page
 $robotoff_url = $ENV{ROBOTOFF_URL};
+
+# Set this to your instance of the search service to enable writes to it
+$redis_url = $ENV{REDIS_URL};
 
 %server_options = (
         private_products => $producers_platform,  # 1 to make products visible only to the owner (producer platform)
