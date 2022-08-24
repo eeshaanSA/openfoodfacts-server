@@ -1,5 +1,48 @@
 # Changelog
 
+## [1.9.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v1.8.0...v1.9.0) (2022-08-24)
+
+
+### Features
+
+* Add taxonomy entries for quality ([#7189](https://github.com/openfoodfacts/openfoodfacts-server/issues/7189)) ([8f9caf9](https://github.com/openfoodfacts/openfoodfacts-server/commit/8f9caf98a2a43d2928295fdb97ed746effb91a57))
+* Documentation spelling policy ([#7142](https://github.com/openfoodfacts/openfoodfacts-server/issues/7142)) ([9a666ac](https://github.com/openfoodfacts/openfoodfacts-server/commit/9a666ac16468335eb0214b6445599840cf2cae78))
+
+
+### Bug Fixes
+
+* bug introduced by previous refactor ([476bad1](https://github.com/openfoodfacts/openfoodfacts-server/commit/476bad1cfc3486e2ef62d212e523fa34f25112d8))
+* bug introduced by previous refactor ([#7214](https://github.com/openfoodfacts/openfoodfacts-server/issues/7214)) ([476bad1](https://github.com/openfoodfacts/openfoodfacts-server/commit/476bad1cfc3486e2ef62d212e523fa34f25112d8)), closes [#7201](https://github.com/openfoodfacts/openfoodfacts-server/issues/7201)
+* Fix typos in the Folksonomy JS code ([#7147](https://github.com/openfoodfacts/openfoodfacts-server/issues/7147)) ([896d6c9](https://github.com/openfoodfacts/openfoodfacts-server/commit/896d6c9fe957ce7e74fa4371b6138accac53a8e0))
+* pb with initial slash in query string of redirects  ([#7164](https://github.com/openfoodfacts/openfoodfacts-server/issues/7164)) ([8902cb4](https://github.com/openfoodfacts/openfoodfacts-server/commit/8902cb405faa0e2b5045f58c8c08ca3c346d6add))
+* set cookie when redirecting ([#7149](https://github.com/openfoodfacts/openfoodfacts-server/issues/7149)) ([b297ed8](https://github.com/openfoodfacts/openfoodfacts-server/commit/b297ed858d526332649562cdec5f1d36be184984))
+* Social media link preview shows old logo Fixes [#7059](https://github.com/openfoodfacts/openfoodfacts-server/issues/7059) ([#7177](https://github.com/openfoodfacts/openfoodfacts-server/issues/7177)) ([6eaa392](https://github.com/openfoodfacts/openfoodfacts-server/commit/6eaa392d197f3f529f2b4985cc4c1645b41a0b6b))
+
+
+### Translations
+
+* New Crowdin translations to review and merge ([#7152](https://github.com/openfoodfacts/openfoodfacts-server/issues/7152)) ([4b1f2e4](https://github.com/openfoodfacts/openfoodfacts-server/commit/4b1f2e4dffb9d065ce148754439d3c4d188278d1))
+* New Crowdin translations to review and merge ([#7156](https://github.com/openfoodfacts/openfoodfacts-server/issues/7156)) ([5f2f2dc](https://github.com/openfoodfacts/openfoodfacts-server/commit/5f2f2dc0c64848e8fe8352bbdadf2ea1a272f37f))
+
+
+### Taxonomy
+
+* add breading and whole grain flour blend ([#7185](https://github.com/openfoodfacts/openfoodfacts-server/issues/7185)) ([b373458](https://github.com/openfoodfacts/openfoodfacts-server/commit/b37345898dffe1fe085ffdacf5f92fcc2b8c7b13))
+* Add new packaging materials and translations ([#7198](https://github.com/openfoodfacts/openfoodfacts-server/issues/7198)) ([589fcd2](https://github.com/openfoodfacts/openfoodfacts-server/commit/589fcd2f9384114fffb833805c9fa2d4ff3eaff2))
+* added croatian translation for raw cashews ([#7227](https://github.com/openfoodfacts/openfoodfacts-server/issues/7227)) ([9fb90de](https://github.com/openfoodfacts/openfoodfacts-server/commit/9fb90de7cd5e10349cc3f7cb4dddecb23ea2ec9f))
+* additives classes - syn ro regulatori de aciditate ([#7229](https://github.com/openfoodfacts/openfoodfacts-server/issues/7229)) ([8eb3959](https://github.com/openfoodfacts/openfoodfacts-server/commit/8eb3959bff69c2af0a9c10ca952aa516dd0fec07))
+* Bulgarian additions ([#7190](https://github.com/openfoodfacts/openfoodfacts-server/issues/7190)) ([a04fa17](https://github.com/openfoodfacts/openfoodfacts-server/commit/a04fa171e9f5a8e9a718d85bc7f301f58895b628))
+* categories - Tartinades d'oeufs ([#7223](https://github.com/openfoodfacts/openfoodfacts-server/issues/7223)) ([e37c5e2](https://github.com/openfoodfacts/openfoodfacts-server/commit/e37c5e2fb47756d9b513089a8efe5fbbdd5bd917))
+* Cheeses to grill ([#7159](https://github.com/openfoodfacts/openfoodfacts-server/issues/7159)) ([361a10c](https://github.com/openfoodfacts/openfoodfacts-server/commit/361a10cfffeded751612406ba7c21d5cf52f49e1))
+* cukier kokosowy ([#7165](https://github.com/openfoodfacts/openfoodfacts-server/issues/7165)) ([3d4983a](https://github.com/openfoodfacts/openfoodfacts-server/commit/3d4983a7665664e3938e55bd32fa331f855e02bc))
+* de:Koagulationsmittel ([#7167](https://github.com/openfoodfacts/openfoodfacts-server/issues/7167)) ([32cc68a](https://github.com/openfoodfacts/openfoodfacts-server/commit/32cc68a6f4a2fde8ce90b583265a264841d60bc1))
+* Fermented dairy desserts ([#7172](https://github.com/openfoodfacts/openfoodfacts-server/issues/7172)) ([6d7e8c8](https://github.com/openfoodfacts/openfoodfacts-server/commit/6d7e8c8da391e459500d4ed5dadfc3f108b12e69))
+* ingredients - Pumpkin seeds ([#7228](https://github.com/openfoodfacts/openfoodfacts-server/issues/7228)) ([bfd7ba4](https://github.com/openfoodfacts/openfoodfacts-server/commit/bfd7ba4c894a8e7da49caf6f856610f46691819b))
+* minerals - syn nl - ijzer(II)fumaraat ([#7143](https://github.com/openfoodfacts/openfoodfacts-server/issues/7143)) ([26526ad](https://github.com/openfoodfacts/openfoodfacts-server/commit/26526ad6068df06b2cce99bf4ee07763e3096721))
+* Mueslis ([#7221](https://github.com/openfoodfacts/openfoodfacts-server/issues/7221)) ([ad34494](https://github.com/openfoodfacts/openfoodfacts-server/commit/ad3449470eef555bd17951d322e4e866c214564c))
+* Remove repeated entries ([#7200](https://github.com/openfoodfacts/openfoodfacts-server/issues/7200)) ([14a920e](https://github.com/openfoodfacts/openfoodfacts-server/commit/14a920e868e2d45dabd5ef618bb8636214759637))
+* Serek homogenizowany ([#7237](https://github.com/openfoodfacts/openfoodfacts-server/issues/7237)) ([3f1d286](https://github.com/openfoodfacts/openfoodfacts-server/commit/3f1d2863a67197cd55e70b2934ec7074ca17f23e))
+
 ## [1.8.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v1.7.0...v1.8.0) (2022-07-27)
 
 
